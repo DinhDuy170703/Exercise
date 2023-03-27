@@ -7,7 +7,7 @@ public class Cicrle {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập r: ");
         double number1 = sc.nextDouble();
-        double acreage = (number1 * number1) * 3.14;
+        double acreage = number1 * number1 * 3.14;
         System.out.println("diện tích hình tròn là: " + acreage);
 
         System.out.println("nhập cạnh c: ");
