@@ -1,0 +1,24 @@
+Kiểu dữ liệu trong Java
+I. Kieu dữ liệu nguyên thủy
+1. Số nguyên                Giá trị mặc định
+  byte                      0
+  short                     0
+  int                       0
+  long                      0L
+2. số thực
+  float                     0.0f
+  double                    0.0d
+3. Kí tự
+  char                      \"u0000
+4. Đúng/Sai
+  boolean                   false
+
+
+II. Kiểu đối tượng
+1. Object                   null
+2. String                   null
+3. Array                    null
+
+switch case trả 5 kiểu dữ liệu
+1. Nguyên thủy: byte , short , int , boolean
+2. Đối tượng: String
