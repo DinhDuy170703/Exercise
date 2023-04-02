@@ -10,7 +10,7 @@ public class BodyMassindexBMI {
         System.out.println("nhập chiều cao: ");
         double height = Double.parseDouble(sc.nextLine());
 
-        double bmi = weight / Math.sqrt(Math.pow(height, 2));
+        double bmi = weight / (height * height);
         if (bmi < 18.5) {
             System.out.println("gầy");
         } else if (18.5 <= bmi && bmi < 25.0) {
