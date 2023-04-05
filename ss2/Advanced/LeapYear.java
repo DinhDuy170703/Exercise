@@ -8,9 +8,14 @@ public class LeapYear {
         System.out.println("nhập vào 1 năm: ");
         int year = Integer.parseInt(sc.nextLine());
 
-        if (year % 4 == 0) {
+        if (year % 4 == 0 && year % 400 == 0) {
             System.out.println("năm nhuận");
-        } else
-            System.out.println("năm thuần");
+        } else if (year % 4 == 0 && year % 100 == 0) {
+            System.out.println(" không phải là năm nhuận");
+        } else if (year % 4 == 0 && year % 100 != 0) {
+            System.out.println("năm nhuận");
+        } else if (year % 400 != 0) {
+            System.out.println("không phải là năm nhuận");
+        }
     }
 }
