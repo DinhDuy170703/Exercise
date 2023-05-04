@@ -22,6 +22,6 @@ public class QuadraticEquation2 {
         } else if (delta > 0) {
             System.out.println("có 2 nghiệm x1 ,x2");
         } else
-            System.out.println("------");
+            System.out.println("--------");
     }
 }

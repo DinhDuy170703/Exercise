@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("nhập vào 1 ten: ");
+        System.out.println("nhập vào 1 tên : ");
         String name = sc.nextLine();
 
         switch (name){

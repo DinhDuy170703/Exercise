@@ -11,13 +11,13 @@ public class LyThuyet {
         // định nghĩa: là câu lệnh dùng để thay đổi luồng thực thi của chương trình
         // 1. câu lệnh điều kiện
         // có 2 loại : if , else và switch, case
-        // I. if
-        // kí hiệu:  và : && ; hoặc:||
+        // I. if   // kí hiệu:  và : && ; hoặc:||
+
         // && thì tất cả điều kiện phải đúng ; || chỉ cần 1 điều kiện đúng
         // gồm 4 loại: 1.if thường ; 2. if bậc thang ; 3. if lồng nhau ; 4. if đủ
         // II. switch case
         // nếu điều kien trên 3 thì dùng switch case còn bé hơn hoặc bằng 3 thì dùng if else
-        // lưu ý: () dùng để đặt điều kien ; {} dùng để thực hiện câu lệnh
+        // lưu ý: () dùng để đặt điều kiện ; {} dùng để thực hiện câu lệnh
         System.out.println("nhập vào 1 ten: ");
 //        int age = Integer.parseInt(sc.nextLine());
         String str = sc.nextLine();
@@ -46,7 +46,7 @@ public class LyThuyet {
                 break;
 
             default:
-                System.out.println("alo");
+                System.out.println("aslo");
                 break;
         }
     }

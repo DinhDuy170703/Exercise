@@ -13,7 +13,5 @@ public class Bai1 {
         int number3 = Integer.parseInt(sc.nextLine());
         int sum = number1 + number2 + number3;
         System.out.println("Tổng = " + sum);
-
-
     }
 }

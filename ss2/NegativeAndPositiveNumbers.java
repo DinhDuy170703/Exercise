@@ -12,7 +12,6 @@ public class NegativeAndPositiveNumbers {
             System.out.println("số dương");
         } else if (number1 < 0) {
             System.out.println("số âm");
-        }else
-            System.out.println("số 0");
+        }
     }
 }
